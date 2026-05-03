@@ -3,21 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Introduction</title>
+  <title>Portfolio | Introduction</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Introduction</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="http://localhost:3000/chat.html">Chat</a></li>
-    </ul>
-  </nav>
-  <main>
-    <h1>Hello, I’m [Your Name]</h1>
-    <p>I study [Your Subject] at [Your Institution]. This site introduces me and includes a chat application.</p>
-    <img src="images/profile.jpg" alt="Profile picture">
+  
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="http://localhost:3000/chat.html" class="chat-btn">Chat</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Hello, I'm a Developer</h1>
+      <p class="subtitle">
+        I am 20 years old, studying <strong>Programming</strong> in Qatar. 
+        This site is a window into my work and my journey as a developer.
+      </p>
+    </section>
+
+    <hr>
+
+    <section class="project-card">
+      <div class="project-content">
+        <h2>Real-Time Chat Application</h2>
+        <p>As part of my programming studies, I designed a real-time chat application built to be <strong>simple, fast, and secure</strong>.</p>
+        
+        <div class="features">
+          <span>⚡ Instant Messaging</span>
+          <span>🛡️ Secure Connection</span>
+          <span>  Clean UI</span>
+        </div>
+
+        <p>I focused on creating a clean interface that anyone can use. Behind the scenes, I used modern coding practices to ensure a stable connection. This project helped me master web data flow, and I am excited to keep improving its features!</p>
+      </div>
+    </section>
   </main>
+
 </body>
 </html>

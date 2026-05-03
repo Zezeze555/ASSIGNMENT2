@@ -32,3 +32,7 @@ Standard websites usually only send information when you refresh the page. I use
 - `server.js`: The "Server-side" code. It manages the connections and sends messages to the right people.
 - `public/`: The "Client-side" code. This is what the user sees in their browser.
 - `.gitignore`: A special file that prevents unnecessary files (like node_modules) from being uploaded to GitHub.
+
+# 7.  Challenges & Solutions
+- 'Challenge' : Managing real-time updates without refreshing the page.
+- " Solution ": Implemented Socket.io to create a bidirectional event-based communication channel, ensuring low latency.
